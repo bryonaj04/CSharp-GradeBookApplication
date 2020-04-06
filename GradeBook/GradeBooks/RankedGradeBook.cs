@@ -16,6 +16,7 @@ namespace GradeBook.GradeBooks
 
             if (Students.Count < 5)
             {
+
                 throw new InvalidOperationException("Ranked-grading requires a minimum of 5 students to work");
             }
 
@@ -30,8 +31,6 @@ namespace GradeBook.GradeBooks
                 else if (num == 2)
                     return 'C';
                 else if (num == 3)
-                    return 'D';
-                else if (num == 4)
                     return 'D';
             }
 
