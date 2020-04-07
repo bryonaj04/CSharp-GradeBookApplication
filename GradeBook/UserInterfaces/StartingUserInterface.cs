@@ -41,6 +41,7 @@ namespace GradeBook.UserInterfaces
             }
 
             var name = parts[2];
+
             BaseGradeBook gradeBook;
 
             if (name == "standard")
